@@ -24,7 +24,42 @@
 
  */
 
-	
+ /*conditional function that returns a string message*/
+function love($str){
+if (!$str){
+	echo "please enter a name";
+}
+else if (!$str == "greenchip"){
+	echo "wrong name !";
+}
+else{
+	echo "I love greenchip :p";
+} 
+}
+
+love("greenchip");
+
+echo nl2br("\r\n");
+
+ /*for loop to display ten numbers*/
+for($i = 0; $i<10; $i++){
+echo $i;
+}
+
+ /*switch statment*/
+$j = 0;
+switch ($j){
+	case 1:
+	echo "it's the first case!";
+	case 2:
+	echo "it's the first case!";
+	case 3:
+	echo "it's the first case!";
+	case 4:
+	echo "it's the first case!";
+	case 5:
+	echo "it's the first case!";
+}
 ?>
 
 

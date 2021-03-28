@@ -1,3 +1,7 @@
+<?php 
+	setcookie('lang', 'en', time() + 3600 * 24, null, null, false, true);
+?>
+
 <?php include "functions.php" ?>
 <?php include "includes/header.php" ?>
 
@@ -29,7 +33,27 @@
 	
 	?>
 
+	
+	<a href="9.php?setts=<?php echo $param1 = "Hii", $param2 = "Hey" ?>" name='setts' method='GET'>Cliquez ici</a>
+	
+	<?php
+		session_start();
 
+		$_SESSION['something'] = 'a message!';
+
+		if(isset($_GET['setts'])){
+			echo nl2br("\r\n");
+			echo $param1;
+			echo nl2br("\r\n");
+			echo $param2;
+
+			echo nl2br("\r\n");
+			echo $_SESSION['something'];
+
+		}
+
+		
+	?>
 
 
 

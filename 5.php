@@ -24,7 +24,24 @@
 
  */
 
-	
+/*max of two or more numbers*/ 
+
+echo max(2,5,7);
+
+echo nl2br("\r\n");
+
+/*make a string upercase*/ 
+echo strtoupper("greenchip");
+
+echo nl2br("\r\n");
+
+$array = ["ouussama", "EL KASMI"];
+
+/*add new variables to an array*/ 
+array_push($array, "22");
+
+echo $array[2];
+
 ?>
 
 

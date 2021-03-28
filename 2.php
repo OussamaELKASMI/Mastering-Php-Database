@@ -26,12 +26,28 @@
 
 		Étape 4: Créez une constante et définissez-la sur la valeur de PHP. et utilisez un écho pour l'afficher
 
-
-			
-
 			 */
 
-		
+			/*initializing the variables */
+			$number1 = 10;
+			$number2 = 20;
+
+			/*Additiong of the variables */
+			echo "number1 + number2 =". " ". $number1 + $number2;
+
+			/*init of two arrays */
+			$regular = ["EL KASMI", "Oussama"];
+			$associative = ["name" => "EL KASMI", "prename" => "Oussama"];
+
+
+			/*init of a const variable */
+			define("constVar", "PHP");
+			echo nl2br("\r\n");
+			echo constVar; 
+			
+			
+
+
 
 
 		?>

@@ -20,12 +20,15 @@
 
 		/* 
 Étape 1: Utilisez la fonction Echo pour afficher bonjour avec des balises html h1 intégrées dans php.
-
+			
 
 Étape 2: rédigez un commentaire au-dessus de la fonction d'écho et expliquez ce que fait cette fonction. 
 
 
 		   */
+		  
+			/* display a string in the page*/
+		   echo "<h1>Bonjour</h1>";
 
 		?>
 

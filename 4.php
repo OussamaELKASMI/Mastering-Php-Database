@@ -23,6 +23,14 @@
 
  */
 
+/*addition function*/ 
+function calc($n, $m){
+	echo $n + $m;
+}
+
+calc(2,7);
+
+
 	
 ?>
 
