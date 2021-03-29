@@ -51,14 +51,19 @@ $j = 0;
 switch ($j){
 	case 1:
 	echo "it's the first case!";
+	break;
 	case 2:
-	echo "it's the first case!";
+	echo "it's the secand case!";
+	break;
 	case 3:
-	echo "it's the first case!";
+	echo "it's the third case!";
+	break;
 	case 4:
-	echo "it's the first case!";
+	echo "it's the fourth case!";
+	break;
 	case 5:
-	echo "it's the first case!";
+	echo "it's the fifth case!";
+	break;
 }
 ?>
 
