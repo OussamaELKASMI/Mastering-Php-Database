@@ -45,11 +45,6 @@
 			echo nl2br("\r\n");
 			echo constVar; 
 			
-			
-
-
-
-
 		?>
 
 	

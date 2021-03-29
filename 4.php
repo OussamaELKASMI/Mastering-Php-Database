@@ -30,7 +30,9 @@ function calc($n, $m){
 
 calc(2,7);
 
-
+function tpara($par, $sett){
+	exho $par. + .$sett;
+}
 	
 ?>
 

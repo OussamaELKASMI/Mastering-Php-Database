@@ -2,6 +2,7 @@
 <?php include "functions.php" ?>
 <?php include "includes/header.php" ?>
 
+
 	<section class="content">
 
 		<aside class="col-xs-4">
@@ -20,13 +21,22 @@
 	Étape 1: Créez un formulaire qui soumet une seule valeur à POST (super global)
  */
 
+if(isset($_POST['send'])){
+	$age = $_POST['age'];
+	echo $age;
+} 
 	
 ?>
 
-<form action="" method="POST">
-	<input type="text" name="age">
-	<button type="submit" name="submit">SUBMIT YOUR AGE</button>
+<form action="process.php" method="POST">
+	<input type="text" name="age" value="22">
+	<button type="submit" name="send">SUBMIT YOUR AGE</button>
 </form>
+
+<?php  
+
+?>
+
 
 
 </article><!--MAIN CONTENT-->
